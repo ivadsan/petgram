@@ -1,5 +1,10 @@
-# curso-platzi-react-avanzado ⚛️
+# Petgram
 
-¡Sígueme en Youtube! https://www.youtube.com/midudev
+Installation
 
-Repositorio con el código del [Curso Avanzado de React de Platzi](https://platzi.com/cursos/react-avanzado/)
+    npm install
+
+Development environment
+
+    npm run dev
+    

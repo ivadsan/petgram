@@ -1,7 +1,7 @@
 {
-  "name": "curso-platzi-react-avanzado",
+  "name": "petgram",
   "version": "1.0.0",
-  "description": "¡Sígueme en Youtube! https://www.youtube.com/midudev",
+  "description": "Plazi advanced react course application",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,15 +12,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/midudev/curso-platzi-react-avanzado.git"
+    "url": "git@github.com:cosmosoftroot/petgram.git"
   },
   "keywords": [],
   "author": "@cosmosoftroot <cosmosoft.soluciones@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/midudev/curso-platzi-react-avanzado/issues"
+    "url": "https://github.com/cosmosoftroot/petgram/issues"
   },
-  "homepage": "https://github.com/midudev/curso-platzi-react-avanzado#readme",
+  "homepage": "https://github.com/cosmosoftroot/petgram#readme",
   "devDependencies": {
     "@babel/core": "^7.9.6",
     "@babel/preset-env": "^7.9.6",

@@ -1,4 +1,6 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin')
+const Dotenv = require('dotenv-webpack')
+
 module.exports = {
   output: {
     filename: 'app.bundle.js'
@@ -6,7 +8,8 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       template: 'src/index.html'
-    })
+    }),
+    new Dotenv()
   ],
   module: {
     rules: [

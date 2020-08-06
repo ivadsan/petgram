@@ -3,7 +3,8 @@ const Dotenv = require('dotenv-webpack')
 
 module.exports = {
   output: {
-    filename: 'app.bundle.js'
+    filename: 'app.bundle.js',
+    publicPath: '/'
   },
   plugins: [
     new HtmlWebpackPlugin({
@@ -11,6 +12,9 @@ module.exports = {
     }),
     new Dotenv()
   ],
+  devServer: {
+    historyApiFallback: true
+  },
   module: {
     rules: [
       {

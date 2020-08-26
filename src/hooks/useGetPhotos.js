@@ -9,12 +9,10 @@ export function useGetPhotos (categoryId) {
         src
         likes
         liked
-        userId
-        
+        userId        
       }
     }`
 
   const { loading, error, data } = useQuery(GET_PHOTOS, { variables: { categoryId } })
-
   return { loading, error, data }
 }

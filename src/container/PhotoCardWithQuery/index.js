@@ -16,7 +16,6 @@ const GET_PHOTO = gql`
 `
 const getPhoto = (id) => {
   const { loading, error, data } = useQuery(GET_PHOTO, { variables: { id } })
-  console.log()
   if (loading) return <p>Loading....</p>
   if (error) return <p>Error :(</p>
   return <PhotoCard id={id} {...data.photo} />

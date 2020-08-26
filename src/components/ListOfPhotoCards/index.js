@@ -8,6 +8,5 @@ export const ListOfPhotoCardsComponent = ({ data }) => {
         <PhotoCard key={photo.id} id={photo.id} {...photo} />
       ))}
     </ul>
-
   )
 }

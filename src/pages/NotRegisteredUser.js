@@ -12,7 +12,10 @@ export function NotRegisteredUser () {
     const input = { email, password }
     const variables = { input }
     try {
-      register.register({ variables }).then(activateAuth)
+      register.register({ variables }).then(({ data }) => {
+        const { signup } = data
+        activateAuth(signup)
+      })
     } catch (err) {
       console.error('Error', err)
     }
@@ -22,7 +25,10 @@ export function NotRegisteredUser () {
     const input = { email, password }
     const variables = { input }
     try {
-      login.login({ variables }).then(activateAuth)
+      login.login({ variables }).then(({ data }) => {
+        const { login } = data
+        activateAuth(login)
+      })
     } catch (err) {
       console.error('Error', err)
     }

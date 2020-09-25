@@ -8,7 +8,8 @@
     "now-build": "npm run build",
     "build": "webpack",
     "dev": "webpack-dev-server",
-    "lint": "standard"
+    "lint": "standard",
+    "serve:dev": "webpack --mode 'development' && npx serve dist -s"
   },
   "repository": {
     "type": "git",
@@ -46,6 +47,7 @@
     "nprogress": "^0.2.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-helmet": "^6.1.0",
     "react-icons": "^3.10.0",
     "styled-components": "^5.1.0"
   },

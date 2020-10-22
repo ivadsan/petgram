@@ -28,48 +28,11 @@ module.exports = {
           destination: path.join('icons', 'ios'),
           ios: true
         },
-        // {
-        //   src: path.resolve('src/assets/apple-touch-icon-72x72.png'),
-        //   sizes: [72],
-        //   destination: path.join('icons', 'ios'),
-        //   ios: true
-        // },
-        // {
-        //   src: path.resolve('src/assets/apple-touch-icon-76x76.png'),
-        //   sizes: [76],
-        //   destination: path.join('icons', 'ios'),
-        //   ios: true
-        // },
-        // {
-        //   src: path.resolve('src/assets/apple-touch-icon-114x114.png'),
-        //   sizes: [114],
-        //   destination: path.join('icons', 'ios'),
-        //   ios: true
-        // },
-        // {
-        //   src: path.resolve('src/assets/apple-touch-icon-120x120.png'),
-        //   sizes: [120],
-        //   destination: path.join('icons', 'ios'),
-        //   ios: true
-        // },
-        // {
-        //   src: path.resolve('src/assets/apple-touch-icon-144x144.png'),
-        //   sizes: [144],
-        //   destination: path.join('icons', 'ios'),
-        //   ios: true
-        // },
-        // {
-        //   src: path.resolve('src/assets/apple-touch-icon-152x152.png'),
-        //   sizes: [152],
-        //   destination: path.join('icons', 'ios'),
-        //   ios: true
-        // },
-        // {
-        //   src: path.resolve('src/assets/apple-touch-icon-180x180.png'),
-        //   sizes: [180],
-        //   destination: path.join('icons', 'ios'),
-        //   ios: true
-        // },
+        {
+          src: path.resolve('src/assets/ic_launcher.png'),
+          sizes: [96, 128, 192],
+          destination: path.join('icons', 'android')
+        },
         {
           src: path.resolve('src/assets/ios-icon.png'),
           size: 512,
@@ -77,14 +40,8 @@ module.exports = {
           ios: 'startup'
         },
         {
-          src: path.resolve('src/assets/android-icon.png'),
-          sizes: [36, 48, 72, 96, 144, 192, 512],
-          destination: path.join('icons', 'android')
-        },
-        {
-          src: 'src/assets/maskable-icon.png',
-          sizes: '196x196',
-          type: 'image/png',
+          src: path.resolve('src/assets/ic_launcher.png'),
+          sizes: '192x192',
           purpose: 'maskable'
         }
       ]

@@ -4,7 +4,7 @@
   "description": "Plazi advanced react course application",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "cypress open",
     "vercel-build": "webpack --mode 'production' && npm run build",
     "build": "webpack",
     "dev": "webpack-dev-server",
@@ -28,6 +28,7 @@
     "@babel/preset-react": "^7.9.4",
     "babel-eslint": "^10.1.0",
     "babel-loader": "^8.1.0",
+    "cypress": "^5.4.0",
     "dotenv-webpack": "^2.0.0",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-prettier": "^3.1.3",
